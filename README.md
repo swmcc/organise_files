@@ -1,29 +1,20 @@
-# app
+# organise files 
 
-**app·name**  */ˈappˌname/*
-
-*Noun:*  
-Description.
-
-*Synonyms:*	
-Something.
-
-![APP](URL "APP")
+![APP](assets/app.png "APP")
 
 ## Description
 
-Description of the app
-
-## Links
-
-[link1](URL) 
-[link2](URL)
+Simple command line utility script that I use to organise my ~/Download and ~/Desktop folders by file types.
 
 ## Development Info
 
+### Run
 ```
-git clone URL
-cd app
-how to run
+pip install -r requirements.txt
+python organise_files.py
 ```
 
+### Testing
+```
+pytest
+```
